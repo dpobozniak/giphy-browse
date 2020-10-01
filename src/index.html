@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title><%= process.env.APP_NAME %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <style>
+        .compability-msg { margin: 4em auto; font-size: 1.2em; text-align: center; }
+        .compability-msg a:hover { text-decoration: underline; }
+      </style>
+  </head>
+  <body>
+    <noscript>
+      <div class="compability-msg">
+        <h3>JavaScript Required</h3>
+        <p>We're sorry, but <%= process.env.APP_NAME %> doesn't work without JavaScript enabled.</p>
+      </div>
+    </noscript>
+    <div id="app">
+    </div>
+  </body>
+</html>

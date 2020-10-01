@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": { "esmodules": true }, // Use the targets that you was already using
+        "modules": false,
+        "loose": true,
+        "debug": false
+      }
+    ],
+    "@babel/react",
+    "@babel/typescript"
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-class-properties"],
+    ["babel-plugin-styled-components"]
+  ]
+}
